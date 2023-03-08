@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1514511136691799582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1514511136691799576}
+  - component: {fileID: 1514511136691799583}
+  m_Layer: 0
+  m_Name: ObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1514511136691799576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514511136691799582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1514511136691799583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514511136691799582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8ff861c615077429358f7c322966f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsPrefabs:
+  - {fileID: 831709219463806155, guid: ca18cd46c16c70c408a9c695cc8273e3, type: 3}
+  - {fileID: 1651605131996543039, guid: ad2299a29fa3c0246b565bdb61773e7b, type: 3}
+  - {fileID: 1398360743945080737, guid: a4a5eeae8b224474ca50854266062cdb, type: 3}
+  - {fileID: 534806124222412806, guid: b3302bc9b6a77404499dbe253b920d97, type: 3}
+  - {fileID: 8716555556433159781, guid: 965d9d40d62a2b14c90ce97bb387f990, type: 3}
+  - {fileID: 8304721884942754894, guid: f93f512182948bf4ab3851ca8b3b72d3, type: 3}
+  - {fileID: 1660518840250806431, guid: 1ccd2ba7410ece648b3d4d0382bde452, type: 3}
+  - {fileID: 7278475313237080168, guid: 014677d473bff6642b3fccf2cf1c366d, type: 3}
+  - {fileID: 1239508841727911185, guid: 964bdfed58da35b4db819f8f54354f3c, type: 3}
+  - {fileID: 1909025706249022182, guid: 10cfe591474b1d941b488a5ee383fcf8, type: 3}
+  - {fileID: 1947932382716601135, guid: 65c96787c0554cb4cbcba88b061d5015, type: 3}
+  - {fileID: 7371708827408882211, guid: b43026e42e8d8d84c88bd4ca4520754b, type: 3}
+  - {fileID: 6249042304352235081, guid: c33bd2c7d09df1749867a414615061a3, type: 3}
+  - {fileID: 1093242363297278024, guid: aa90406efee58aa4185dd8d18590b1e1, type: 3}
+  - {fileID: 835061059438988047, guid: 411bb972dc92a4145a6317f955f81832, type: 3}
+  objectsPrefabsWith2Bombs: []
+  objectsPrefabsWith5Bombs: []
+  objectsToInstantiate: []
+  objectsWith2Bombs: []
+  objectsWith5Bombs: []
+  instantiatedObjectsPositions:
+  - {x: -5, y: 2.5, z: 0}
+  - {x: -2.5, y: 2.5, z: 0}
+  - {x: 0, y: 2.5, z: 0}
+  - {x: 2.5, y: 2.5, z: 0}
+  - {x: 5, y: 2.5, z: 0}
+  - {x: -5, y: 0, z: 0}
+  - {x: -2.5, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 2.5, y: 0, z: 0}
+  - {x: 5, y: 0, z: 0}
+  - {x: -5, y: -2.5, z: 0}
+  - {x: -2.5, y: -2.5, z: 0}
+  - {x: 0, y: -2.5, z: 0}
+  - {x: 2.5, y: -2.5, z: 0}
+  - {x: 5, y: -2.5, z: 0}
+  timeRemaining: 30
+  remainingTimeText: {fileID: 0}
+  scoreText: {fileID: 0}
+  highScoreText: {fileID: 0}
+  gameOverScoreText: {fileID: 0}
+  coinText: {fileID: 0}
+  coin: 0
+  score: 0
+  scoreIncrement: 1
+  scoreMultiplier: 1
+  multiplierDuration: 4
+  gameOverPanel: {fileID: 0}
+  bronzeIcon: {fileID: 0}
+  goldIcon: {fileID: 0}
+  silverIcon: {fileID: 0}
