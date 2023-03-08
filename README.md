@@ -1,4 +1,4 @@
- ClickCraze
+ # ⚙️ClickCraze
  ClickCraze simple Casual Game made with Unity
 # ⚙️ Install
 Clone the project to your computer.
@@ -6,7 +6,7 @@ Clone the project to your computer.
 > git clone https://github.com/ArdaDenizKara/ClickCraze.git
 ```
 
-🎮# Gameplay 
+# 🎮 Gameplay 
 You have to click objects on scene to destroy them and get points.
 ![photo2](https://user-images.githubusercontent.com/56769449/223858222-1c00ee99-bde8-41b8-a3f1-67680e44ad5c.png)
 
